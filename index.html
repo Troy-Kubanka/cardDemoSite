@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+
+<html>
+
+   <head>
+      <title>Pokemon Card Site</title>
+      <link rel="stylesheet" href="styleCard.css">
+   </head>
+
+<body>
+<!--
+    <h1 style="background-color: #CCCCCC; font-size: 40px; 
+                ; border-bottom: 2px dashed #ff0000; "> Hello World!&copy; </h1> -->
+    <div style="border-bottom: 4px solid #daa520;">
+        <h1>Pokémon Card Gallery</h1>
+    </div>
+
+    <header>
+    <nav class="navbar">
+        <a href="#" style="padding-right: 140px;">Cards</a> 
+        <a href="#sh">Shining</a> 
+        <a href="#crys">Crystal</a>
+        <a href="#gs">Gold Star</a>
+        <a href="#lgnd">Legend</a>
+        <a href="#co">Cosplay</a>
+    </nav>
+    </header>
+   
+      <p style="font-size: 30px;"><br>
+        This is a fun website to showcase popular cards. <br><br> Each section has a brief overview of the cards. 
+      </p>
+
+
+   <section id="sh">
+        <h3>Original Shining Cards</h3>
+            <p> <strong>Total Cards: </strong>11<br>
+            <br> <strong>Original Release: </strong>2000 <br>
+            <br> <strong>English Sets: </strong>Neo Revelation, Neo Destiny <br>
+            <!--       <br><br> <strong>Fun Fact: </strong>The original <span>Shining Mew</span> was only released in Japan as a prize card.  -->
+            <br> <a href="https://bulbapedia.bulbagarden.net/wiki/Shining_Pok%C3%A9mon_(TCG)" target="_blank" rel="noopener noreferrer"> Learn More </a>
+            </p>
+
+        <div class="gallery-wrap">
+            <p  id="backBtn" style="cursor:pointer; font-size: 35px; padding-right: 15px;" onmouseover="this.style.color='#daa520'" onmouseout="this.style.color='#ffffff'"
+            > <strong>&lt;&lt;</strong> </p> <!-- for back arrows -->
+                       
+            <div class="gallery">
+                <div>
+                    <img src="Img/shining/shgyarados.webp" alt="Shining Gyarados Card" height="375px">
+                    <img src="Img/shining/shmagikarp.webp" alt="Shining Magikarp Card" height="375px">
+                    <img src="Img/shining/shchar.webp" alt="Shining Charizard Card" height="375px">
+                </div> 
+                <div>
+                    <img src="Img/shining/shcelebi.webp" alt="Shining Celebi Card" height="375px">
+                    <img src="Img/shining/shmewtwo.webp" alt="Shining Mewtwo Card" height="375px">
+                    <img src="Img/shining/shraichu.webp" alt="Shining Raichu Card" height="375px">
+                </div> 
+                <div>
+                    <img src="Img/shining/shttar.webp" alt="Shining Tyranitar Card" height="375px">
+                    <img src="Img/shining/shsteelix.webp" alt="Shining Steelix Card" height="375px">
+                    <img src="Img/shining/shkabutops.webp" alt="Shining Kabutops Card" height="375px">
+                </div> 
+            </div>
+
+            <p id="nextBtn" style="cursor:pointer; font-size: 35px; padding-left: 15px;" onmouseover="this.style.color='#daa520'" onmouseout="this.style.color='#ffffff'"
+            > <strong>&gt;&gt;</strong> </p>  <!-- for forward arrows -->
+        </div>
+   </section>
+
+
+
+   <section id="crys">
+        <h3>Crystal Cards</h3>
+                <p> <strong>Total Cards: </strong>9<br>
+                    <br> <strong>Original Release: </strong>2003<br>
+                    <br> <strong>English Sets: </strong>Aquapolis, Skyridge<br>
+                    <br> <a href="https://bulbapedia.bulbagarden.net/wiki/Crystal_Pok%C3%A9mon_(TCG)" target="_blank" rel="noopener noreferrer"> Learn More </a>
+                    </p>
+        
+                <div class="gallery-wrap">
+                    <p  id="backBtn2" style="cursor:pointer; font-size: 35px; padding-right: 15px;" onmouseover="this.style.color='#daa520'" onmouseout="this.style.color='#ffffff'"
+                    > <strong>&lt;&lt;</strong> </p> <!-- for back arrows -->
+                               
+                    <div class="gallery">
+                        <div>
+                            <img src="Img/crystal/cryskingdra.webp" alt="Crystal Kingdra Card" height="375px">
+                            <img src="Img/crystal/crysLugia.webp" alt="Crystal Lugia Card" height="375px">
+                            <img src="Img/crystal/crysnido.webp" alt="Crystal Nidoking Card" height="375px">
+                        </div> 
+                        <div>
+                            <img src="Img/crystal/crysCelebi.webp" alt="Crystal Gyarados Card" height="375px">
+                            <img src="Img/crystal/cryschar.webp" alt="Crystal Magikarp Card" height="375px">
+                            <img src="Img/crystal/cryscrobat.webp" alt="Crystal Magikarp Card" height="375px">
+                        </div> 
+                        <div>
+                            <img src="Img/crystal/crysgolem.webp" alt="Crystal Golem Card" height="375px">
+                            <img src="Img/crystal/crysHoOh.webp" alt="Crystal Ho-Oh Card" height="375px">
+                            <img src="Img/crystal/cryskabutops.webp" alt="Crystal Kabutops Card" height="375px">
+                        </div> 
+                    </div>
+        
+                    <p id="nextBtn2" style="cursor:pointer; font-size: 35px; padding-left: 15px;" onmouseover="this.style.color='#daa520'" onmouseout="this.style.color='#ffffff'"
+                    > <strong>&gt;&gt;</strong> </p>  <!-- for forward arrows -->
+                </div>
+   </section>
+
+
+
+   <section id="gs">
+        <h3>Gold Star Cards</h3>
+                <p> <strong>Total Cards: </strong>27 <br>
+                    <br> <strong>Original Release: </strong>2004<br>
+                    <br> <strong>English Sets: </strong>Delta Species, Dragon Frontiers, Deoxys, ... <br>
+                    <br> <a href="https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9mon_%E2%98%86_(TCG)" target="_blank" rel="noopener noreferrer"> Learn More </a>
+                    </p>
+        
+                <div class="gallery-wrap">
+                    <p  id="backBtn3" style="cursor:pointer; font-size: 35px; padding-right: 15px;" onmouseover="this.style.color='#daa520'" onmouseout="this.style.color='#ffffff'"
+                    > <strong>&lt;&lt;</strong> </p> <!-- for back arrows -->
+                               
+                    <div class="gallery">
+                        <div>
+                            <img src="Img/goldStar/gsgroudon.webp" alt="Gold Star Groudon Card" height="375px">
+                            <img src="Img/goldStar/gsrayquaza.webp" alt="Gold Star Rayquaza Card" height="375px">
+                            <img src="Img/goldStar/gskyogre.webp" alt="Gold Star Kyogre Card" height="375px">
+                        </div> 
+                        <div>
+                            <img src="Img/goldStar/gsgyarados.webp" alt="Gold Star Gyarados Card" height="375px">
+                            <img src="Img/goldStar/gschar.webp" alt="Gold Star Charizard Card" height="375px">
+                            <img src="Img/goldStar/gsmew.webp" alt="Gold Star Mew Card" height="375px">
+                        </div> 
+                        <div>
+                            <img src="Img/goldStar/gslatias.webp" alt="Gold Star Latias Card" height="375px">
+                            <img src="Img/goldStar/gsmetagross.webp" alt="Gold Star Metagross Card" height="375px">
+                            <img src="Img/goldStar/gslatios.webp" alt="Gold Star Latios Card" height="375px">
+                        </div> 
+                        <div>
+                            <img src="Img/goldStar/gsalakazam.webp" alt="Gold Star Alakazam Card" height="375px">
+                            <img src="Img/goldStar/gspika.webp" alt="Gold Star Pikachu Card" height="375px">
+                            <img src="Img/goldStar/gsmewtwo.webp" alt="Gold Star Mewtwo Card" height="375px">
+                        </div> 
+                    </div>
+        
+                    <p id="nextBtn3" style="cursor:pointer; font-size: 35px; padding-left: 15px;" onmouseover="this.style.color='#daa520'" onmouseout="this.style.color='#ffffff'"
+                    > <strong>&gt;&gt;</strong> </p>  <!-- for forward arrows -->
+                </div>
+   </section>
+
+
+
+   <section id="lgnd">
+        <h3>Legend Cards</h3>
+                <p> <strong>Total Cards: </strong>18<br>
+                    <br> <strong>Original Release: </strong>2009<br>
+                    <br> <strong>English Sets: </strong>HG/SS, Triumphant, Undaunted, Unleashed<br>
+                    <br> <a href="https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9mon_LEGEND_(TCG)" target="_blank" rel="noopener noreferrer"> Learn More </a>
+                    </p>
+        
+                <div class="gallery-wrap">
+                    <p  id="backBtn4" style="cursor:pointer; font-size: 35px; padding-right: 15px;" onmouseover="this.style.color='#daa520'" onmouseout="this.style.color='#ffffff'"
+                    > <strong>&lt;&lt;</strong> </p> <!-- for back arrows -->
+                               
+                    <div class="gallery">
+                        <div>
+                            <img src="Img/legend/lgDCtop.webp" alt="Darkrai Cresselia Legend Card" height="375px">
+                            <img src="Img/legend/lgDCBot.webp" alt="Darkrai Cresselia Legend Card" height="375px">
+                            <img src="Img/legend/lgPDtop.webp" alt="Palkia Dialga Legend Card" height="375px">
+                        </div> 
+                        <div>
+                            <img src="Img/legend/lgPDbot.webp" alt="Palkia Dialga Legend Card" height="375px">
+                            <img src="Img/legend/lgRDtop.webp" alt="Rayquaza Deoxys Legend Card" height="375px">
+                            <img src="Img/legend/lgRDbot.webp" alt="Rayquaza Deoxys Legend Card" height="375px">
+                        </div> 
+                        <div>
+                            <img src="Img/legend/lgKGtop.webp" alt="Kyogre Groudon Legend Card" height="375px">
+                            <img src="Img/legend/lgKGbot.webp" alt="Kyogre Groudon Legend Card" height="375px">
+                            <img src="Img/legend/lgHoOhtop.webp" alt="Ho-Oh Legend Card" height="375px">
+                        </div> 
+                    </div>
+        
+                    <p id="nextBtn4" style="cursor:pointer; font-size: 35px; padding-left: 15px;" onmouseover="this.style.color='#daa520'" onmouseout="this.style.color='#ffffff'"
+                    > <strong>&gt;&gt;</strong> </p>  <!-- for forward arrows -->
+                </div>
+   </section>
+
+   <section id="co">
+        <h3>Cosplay Pikachu Cards</h3>
+                <p> <strong>Total Cards: </strong>32<br>
+                    <br> <strong>Original Release: </strong>2014<br>
+                    <br> <strong>English Sets: </strong>None - Japanese Promos<br>
+                    <br> <a href="https://pokeboon.com/list-of-cosplay-pikachu-pokemon-tcg-promos-for-collection/#st-toc-h-6" target="_blank" rel="noopener noreferrer"> Learn More </a>
+                    </p>
+        
+                <div class="gallery-wrap">
+                    <p  id="backBtn5" style="cursor:pointer; font-size: 35px; padding-right: 15px;" onmouseover="this.style.color='#daa520'" onmouseout="this.style.color='#ffffff'"
+                    > <strong>&lt;&lt;</strong> </p> <!-- for back arrows -->
+                               
+                    <div class="gallery">
+                        <div>
+                            <img src="Img/cosplay/comarioPikaFA.jpeg" alt="Mario Pikachu FA Card" height="375px">
+                            <img src="Img/cosplay/coluigiPikaFA.jpeg" alt="Luigi Pikachu FA Card" height="375px">
+                            <img src="Img/cosplay/comarioPikaNorm.jpeg" alt="Mario Pikachu Card" height="375px">
+                        </div> 
+                        <div>
+                            <img src="Img/cosplay/coluigiPikaNorm.jpeg" alt="Luigi Pikachu Card" height="375px">
+                            <img src="Img/cosplay/comagikarpPika.webp" alt="Poncho Pika-Magikarp Card" height="375px">
+                            <img src="Img/cosplay/cogyaradosPika.webp" alt="Poncho Pika-Gyarados Card" height="375px">
+                        </div> 
+                        <div>
+                            <img src="Img/cosplay/coRayNormPika.jpeg" alt="Poncho Shiny Pika-Rayquaza Card" height="375px">
+                            <img src="Img/cosplay/coRayShinyPika.jpeg" alt="Poncho Pika-Rayquaza Card" height="375px">
+                            <img src="Img/cosplay/coteamskullPika.jpeg" alt="Team Skull Pikachu Card" height="375px">
+                        </div> 
+                        <div>
+                            <img src="Img/cosplay/coteamevilPika.jpeg" alt="Evil Teams Pikachu Card" height="375px">
+                            <img src="Img/cosplay/cocharXPika.jpeg" alt="Poncho Pika-CharizardX Card" height="375px">
+                            <img src="Img/cosplay/cocharYPika.jpeg" alt="Poncho Pika-CharizardY Card" height="375px">
+                        </div> 
+                    </div>
+        
+                    <p id="nextBtn5" style="cursor:pointer; font-size: 35px; padding-left: 15px;" onmouseover="this.style.color='#daa520'" onmouseout="this.style.color='#ffffff'"
+                    > <strong>&gt;&gt;</strong> </p>  <!-- for forward arrows -->
+                </div>
+   </section>
+
+
+
+
+   <div class="footer"><hr />Copyright &copy; 2019<br>(Not Affiliated with the Pokémon Company)
+    </div>
+
+
+       <!-- JS script for '<<' & '>>' image buttons -->
+       <!-- brute forced with mulptiple IDs to work with all 5 sets... could not solve using classes -->
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            let galleries = document.querySelectorAll(".gallery-wrap");
+    
+            galleries.forEach((gallery) => {
+                let images = gallery.querySelector(".gallery");
+                let backBtn = gallery.querySelector("[id^='backBtn']");
+                let nextBtn = gallery.querySelector("[id^='nextBtn']");
+                let scrollAmount = 910;
+    
+                backBtn.addEventListener("click", () => {
+                    gallery.style.scrollBehavior = "smooth";
+                    images.scrollLeft -= scrollAmount;
+                });
+    
+                nextBtn.addEventListener("click", () => {
+                    gallery.style.scrollBehavior = "smooth";
+                    images.scrollLeft += scrollAmount;
+                });
+            });
+        });
+    </script>
+
+   <!-- original script with id when I was only going to do 1 gallery 
+  <script>
+    let scrollCards = document.querySelector(".gallery");
+    let backBtn = document.getElementById("backBtn");
+    let nextBtn = document.getElementById("nextBtn");
+
+    nextBtn.addEventListener("click", ()=>{
+        scrollCards.style.scrollBehavior = "smooth";
+        scrollCards.scrollLeft += 910;
+    });
+    backBtn.addEventListener("click", ()=>{
+        scrollCards.style.scrollBehavior = "smooth";
+        scrollCards.scrollLeft -= 910;
+    });
+  </script>
+-->
+
+
+  </body>
+
+</html>                                                        
